@@ -1,0 +1,18 @@
+.live-watch {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  &__header {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .live-watch {
+  
+    &__header {
+      font-size: 20px;
+    }
+  }
+}

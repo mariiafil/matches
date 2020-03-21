@@ -1,0 +1,102 @@
+@import './variables';
+
+.link {
+  text-decoration: none;
+}
+
+.card {
+  width: 336px;
+  height: 360px;
+  font-family: 'Roboto';
+  padding: 25px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1); 
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__title {
+    margin-bottom: 120px;
+    margin-top: 0;
+    font-size: 14px;
+    color: $dark_grey;
+    font-weight: normal;
+  }
+
+  &__watch {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  &__status-container {
+    text-align: right;
+    width: 100px;
+  }
+
+  &__time {
+    font-size: 24px;
+    color: $black;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__date {
+    font-size: 14px;
+    color: $dark_grey;
+  }    
+}
+
+
+.live {
+  border: 1px solid $red;
+  background: url('../components/pages/pageComponents/images/live.png') no-repeat top right;
+}
+
+.upcoming {
+  background: url('../components/pages/pageComponents/images/active.png') no-repeat top right;
+}
+
+.finished {
+  background: url('../components/pages/pageComponents/images/finished.png') no-repeat top right;
+}
+
+@media screen and (max-width: 500px) {
+
+  .card {
+    max-width: 374px;
+    height: 225px;
+    padding: 15px;
+
+    &__start {
+      transform: scale(0.7);
+    }
+
+    &__title {
+      margin-bottom: 0;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    &__watch {
+      font-size: 12px;
+      padding-top: 0;
+    }
+
+    &__status-container {
+      width: 68px;
+    }
+  }
+
+  .live,
+  .upcoming,
+  .finished {
+    background-size: 150px;
+  }
+}

@@ -1,0 +1,96 @@
+.card {
+
+  &__teams {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__player {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  &__info {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &__additional {
+    font-size: 14px;
+    color: $dark_grey;
+  }
+  
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  &__partner {
+    display: block;
+    object-fit: contain;
+  }
+
+  &__player-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    color: $black;
+
+    &--grey {
+      @extend .card__player-container;
+      color: $dark_grey;
+    }
+  }
+}
+
+.upcoming .card__info,
+.live .card__info {
+  font-size: 14px;
+  color: $black;
+  padding: 5px 10px;
+  background-color: rgba(151, 151, 151, 0.1);
+}
+
+.finished .card__info {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    
+  .card {
+
+    &__teams {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+
+    &__team-img {
+      width: 40px;
+    }
+
+    &__player-container {
+      margin: 0;
+    }
+
+    &__info {
+      font-size: 12px;
+    }
+
+    &__additional {
+      margin: 5px 0;
+      font-size: 12px;
+    }
+  }
+
+  .upcoming .card__info,
+  .live .card__info {
+    font-size: 12px;
+  }    
+}

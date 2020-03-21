@@ -1,0 +1,88 @@
+.card {
+
+  &__groups-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+  }
+
+  &__team-logo {
+    background-color: $black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  &__group {
+    color: $black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+
+    &:first-child {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__match-number {
+    width: 105px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $dark-grey;
+    background-color: $light_grey;
+  }
+
+  &__groups-container {
+    margin-bottom: 10px;
+  }
+
+  &__map {
+    font-size: 14px;
+    color: $dark_grey;
+    position: relative;
+  }
+}
+
+.finished .card__map{
+  padding-left: 30px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../components/pages/pageComponents/images/cup.png') no-repeat;    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+
+    &__team-logo {
+      margin-bottom: 0;
+    }
+
+    &__group {
+  
+      &:first-child {
+        margin-bottom: 5px;
+      }
+    }
+
+    &__match-number {
+      font-size: 12px;
+    }
+
+    &__map {
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+}

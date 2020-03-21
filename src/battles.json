@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "date": "",
+    "time": "",
+    "title": "Group Stage",
+    "status": "live",
+    "logo": "/images/logo_8.png",
+    "info": "Match #1",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Map: Erangel"
+  },
+
+  {
+    "id": 2,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "upcoming",
+    "logo": "/images/logo_8.png",
+    "info": "Match #2",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Starts in: 5h 39min • Map: Erangel"
+  },
+
+  {
+    "id": 3,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "upcoming",
+    "logo": "/images/logo_8.png",
+    "info": "Match #3",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Starts in: 5h 39min • Map: Erangel"
+  },
+
+  {
+    "id": 4,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "upcoming",
+    "logo": "/images/logo_8.png",
+    "info": "Match #4",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Starts in: 5h 39min • Map: Erangel"
+  },
+
+  {
+    "id": 5,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "finished",
+    "logo": "/images/logo_8.png",
+    "info": "Match #5",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Natus Vincere (A) - 233pts"
+  },
+
+  {
+    "id": 6,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "finished",
+    "logo": "/images/logo_8.png",
+    "info": "Match #6",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Natus Vincere (A) - 233pts"
+  },
+
+  {
+    "id": 7,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "finished",
+    "logo": "/images/logo_8.png",
+    "info": "Match #7",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Natus Vincere (A) - 233pts"
+  },
+
+  {
+    "id": 8,
+    "date": "March 8",
+    "time": "19:00",
+    "title": "Group Stage",
+    "status": "finished",
+    "logo": "/images/logo_8.png",
+    "info": "Match #8",
+    "group1": "Group A",    
+    "group2": "Group B",
+    "map": "Natus Vincere (A) - 233pts"
+  }
+]

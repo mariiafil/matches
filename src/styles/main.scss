@@ -1,0 +1,15 @@
+@import './list';
+@import './header';
+@import './card';
+@import './battle';
+@import './match';
+@import './live';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
