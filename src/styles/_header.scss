@@ -1,7 +1,7 @@
 @import './variables';
 
 .header {
-  background: url('../components/pages/pageComponents/images/header.png') no-repeat;
+  background: url("../components/pages/pageComponents/images/header.png") no-repeat;
   background-size: cover;
   width: 100%;
   padding-top: 120px;
@@ -17,7 +17,7 @@
     height: 380px;
     top: 0;
     left: 0;
-    background: url('../components/pages/pageComponents/images/star.png') no-repeat;
+    background: url("../components/pages/pageComponents/images/star.png") no-repeat;
     z-index: 0;
   }
 
@@ -72,7 +72,7 @@
   .header {
 
     padding-top: 90px;
-    background: url('../components/pages/pageComponents/images/header_small.png') no-repeat;
+    background: url("../components/pages/pageComponents/images/header_small.png") no-repeat;
 
     &::before {
       display: none;
