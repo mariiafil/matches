@@ -25,7 +25,7 @@ export const Battle = (props) => {
             <div className="card__status-container">
               <img
                 className="card__start"
-                src="/images/start.png"
+                src="images/start.png"
                 alt="start"
               />
               <p className="card__watch">Whatch live!</p>
