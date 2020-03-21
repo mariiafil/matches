@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import '../../../styles/card.scss';
 
 export const Match = (props) => {
   const {
@@ -35,7 +34,7 @@ export const Match = (props) => {
             <div className="card__status-container">
               <img
                 className="card__start"
-                src="/images/start.png"
+                src="images/start.png"
                 alt="start"
               />
               <p className="card__watch">Whatch live!</p>

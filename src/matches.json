@@ -7,12 +7,12 @@
     "status": "live",
     "player1": "Albert Warren",
     "info1": 3.22,
-    "teamLogo1": "/images/logo1.png",
+    "teamLogo1": "images/logo1.png",
     "player2": "Gloria Henry",
     "info2": 53.22,
-    "teamLogo2": "/images/logo2.png",
+    "teamLogo2": "images/logo2.png",
     "additional": "Bo 3",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -23,12 +23,12 @@
     "status": "upcoming",
     "player1": "Regina Watson",
     "info1": 3.22,
-    "teamLogo1": "/images/logo3.png",
+    "teamLogo1": "images/logo3.png",
     "player2": "Kathryn Jones",
     "info2": 53.22,
-    "teamLogo2": "/images/logo4.png",
+    "teamLogo2": "images/logo4.png",
     "additional": "Starts in: 5 hours 39 min • Bо 3",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -39,12 +39,12 @@
     "status": "upcoming",
     "player1": "Ricardo Hawkins",
     "info1": 3.22,
-    "teamLogo1": "/images/logo2.png",
+    "teamLogo1": "images/logo2.png",
     "player2": "Bruce Simmmons",
     "info2": 53.22,
-    "teamLogo2": "/images/logo5.png",
+    "teamLogo2": "images/logo5.png",
     "additional": "Starts in: 5 hours 39 min • Bо 3",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -55,12 +55,12 @@
     "status": "upcoming",
     "player1": "Jenny Bell",
     "info1": 3.22,
-    "teamLogo1": "/images/logo6.png",
+    "teamLogo1": "images/logo6.png",
     "player2": "Arlene Robertson",
     "info2": 53.22,
-    "teamLogo2": "/images/logo7.png",
+    "teamLogo2": "images/logo7.png",
     "additional": "Starts in: 5 hours 39 min • Bо 3",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -71,12 +71,12 @@
     "status": "finished",
     "player1": "Courtney Alexander",
     "info1": 0,
-    "teamLogo1": "/images/logo1.png",
+    "teamLogo1": "images/logo1.png",
     "player2": "Judith Nguyen",
     "info2": 3,
-    "teamLogo2": "/images/logo3.png",
+    "teamLogo2": "images/logo3.png",
     "additional": "1:0 • 1:0 • 1:0",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -87,12 +87,12 @@
     "status": "finished",
     "player1": "Priscilla Fisher",
     "info1": 3,
-    "teamLogo1": "/images/logo1.png",
+    "teamLogo1": "images/logo1.png",
     "player2": "Gloria Henry",
     "info2": 0,
-    "teamLogo2": "/images/logo4.png",
+    "teamLogo2": "images/logo4.png",
     "additional": "1:0 • 1:0 • 1:0",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -103,12 +103,12 @@
     "status": "finished",
     "player1": "Cody Howard",
     "info1": 0,
-    "teamLogo1": "/images/logo5.png",
+    "teamLogo1": "images/logo5.png",
     "player2": "Brandon Mccoy",
     "info2": 3,
-    "teamLogo2": "/images/logo6.png",
+    "teamLogo2": "images/logo6.png",
     "additional": "1:0 • 1:0 • 1:0",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   },
 
   {
@@ -119,11 +119,11 @@
     "status": "finished",
     "player1": "Jorge Fox",
     "info1": 0,
-    "teamLogo1": "/images/logo1.png",
+    "teamLogo1": "images/logo1.png",
     "player2": "Zack Miles",
     "info2": 3,
-    "teamLogo2": "/images/logo7.png",
+    "teamLogo2": "images/logo7.png",
     "additional": "1:0 • 1:0 • 1:0",
-    "partner": "/images/partner1.png"
+    "partner": "images/partner1.png"
   }
 ]
