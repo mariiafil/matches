@@ -1,25 +1,11 @@
 @import './variables';
 
 .header {
-  background: url("../components/pages/pageComponents/images/header.png") no-repeat;
-  background-size: cover;
+  background: url("../components/pages/pageComponents/images/star.png") 0% center no-repeat,
+    url("../components/pages/pageComponents/images/header.png") no-repeat;
   width: 100%;
   padding-top: 120px;
   margin-bottom: 50px;
-  position: relative;
-  z-index: 1;
-
-  &::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 450px;
-    height: 380px;
-    top: 0;
-    left: 0;
-    background: url("../components/pages/pageComponents/images/star.png") no-repeat;
-    z-index: 0;
-  }
 
   &__wrapper {
     max-width: 1500px;
@@ -58,8 +44,6 @@
     display: block;
     text-align: center;
     line-height: 60px;
-    position: relative;
-    z-index: 2;
 
     &--active {
       color: $white;
