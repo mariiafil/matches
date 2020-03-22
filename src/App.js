@@ -10,11 +10,11 @@ const App = () => (
   <div>
     <Nav />
     <Switch>
-      <Route path="/" exact component={Matches} />
+      <Route path="/matches" exact component={Matches} />
       <Route path="/battles" exact component={Battles} />
       <Route path="/matches/:matchId" exact component={Live} />
       <Route path="/battles/:battleId" exact component={Live} />
-      <Redirect from="*" to="/" />
+      <Redirect from="*" to="/matches" />
     </Switch>
   </div>
 );

@@ -9,7 +9,7 @@ export const Nav = () => (
         <ul className="navigation__list">
           <li>
             <NavLink
-              to="/"
+              to="/matches"
               exact
               className="navigation__item"
               activeClassName="navigation__item--active"
